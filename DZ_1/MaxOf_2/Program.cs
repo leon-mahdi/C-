@@ -5,20 +5,20 @@
 // a = -9 b = -3 -> max = -3
 
 Console.WriteLine("Введите первое число");
-int number_1 = Convert.ToInt32(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите второе число");
-int number_2 = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
 
-int max = number_1;
+int max = a;
 
-if (number_2>max)
+if (b>max)
 {
     Console.Write("Максимальное число ");
-    Console.Write(number_2);
+    Console.Write(b);
 }
 else
 {
     Console.Write("Максимальное число ");
-    Console.Write(number_1);
+    Console.Write(a);
 }
