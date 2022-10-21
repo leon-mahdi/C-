@@ -7,4 +7,11 @@
 Console.WriteLine("Введите трёхзначное число");
 int number = Convert.ToInt32(Console.ReadLine());
 int num1 = number%100/10;
-Console.WriteLine($"Вторая цифра введённого числа " + num1);
+if ((number>99)&&(number<1000))
+{
+    Console.WriteLine($"Вторая цифра введённого числа " + num1);
+}
+else
+{
+    Console.WriteLine("Введённое число не трёхзначное");
+}
