@@ -14,7 +14,7 @@ int num = int.Parse(Console.ReadLine());
 int Func (int number)
 {
     int sum = 0;
-    int x = 0;
+    
     while (num>0)
     {
         sum = sum + num % 10;
